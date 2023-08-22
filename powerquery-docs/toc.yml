@@ -388,6 +388,8 @@
         href: connectors/dynamics-365-online.md
       - name: "Eduframe (Beta)"
         href: connectors/eduframe.md
+      - name: "Enpublica (Beta)"
+        href: connectors/enpublica.md
       - name: "EQuIS"
         href: connectors/equis.md
       - name: "Essbase"
