@@ -37,15 +37,19 @@ You'll be asked to enter an api key; enter the key value and then click the **Co
 
 ![](./media/enpublica/Tutorial1_Part1_3.jpg)
 
-In the Navigator window, expand the FRED table - and then select one or more functions.  For example, click the arrow next to **series** **,** and then select/check **fn\_fred\_series** and **fn\_fred\_series\_observations**. Next, click the **Transform Data** to open the Power Query Editor.
+In the Navigator window, expand the FRED table - and then select one or more functions.  For example, click the arrow next to **series**, and then select/check **fn\_fred\_series** and **fn\_fred\_series\_observations**. Next, click the **Transform Data** to open the Power Query Editor.
 
 ![](./media/enpublica/Tutorial1_Part1_4.jpg)
 
-Click **fn\_fred\_series** in the Queries window, enter the following values into the **series\_id** parameter: **GDPC1, UNRATE, CPIAUCNS**. Next, click the Invoke button; rename the Query to **fred\_series**.
+In the Power Query editor, click **fn\_fred\_series** in the Queries window, and enter the following values into the **series\_id** parameter: **GDPC1, UNRATE, CPIAUCNS**. Next, click the Invoke button; rename the Query to **fred\_series**.
 
 ![](./media/enpublica/Invoke_Fred_Series.gif)
 
-Next click/highlight the **fn\_fred\_series\_observations** function, enter the following values into the series\_id parameter: **GDPC1, UNRATE, CPIAUCNS&units=pc1** , and then click the **Invoke** button. This will return the same three series, but instead of metadata about the series, the actual values (i.e. the observations) are returned. Rename the **Invoked Function** to **fred\_series\_obs**. In the **Home** ribbon of the Power Query Editor, click the **Close & Apply** button.
+Next click/highlight the **fn\_fred\_series\_observations** function, enter the following values into the series\_id parameter: **GDPC1, UNRATE, CPIAUCNS&units=pc1** , and then click the **Invoke** button. This will return the same three series, but instead of metadata about the series, the actual values (i.e. the observations) are returned. Rename the **Invoked Function** to **fred\_series\_obs**.
+
+![](./media/enpublica/Tutorial1_Part1_5.jpg)
+
+In the **Home** ribbon of the Power Query Editor, click the **Close & Apply** button.
 
 ## Troubleshooting
 
