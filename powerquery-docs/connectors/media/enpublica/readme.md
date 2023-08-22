@@ -1,1 +1,0 @@
-Enpublica Images.
