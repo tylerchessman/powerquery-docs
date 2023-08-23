@@ -55,4 +55,6 @@ In the **Home** ribbon of the Power Query Editor, click the **Close & Apply** bu
 
 **Tip** : in the Power Query Editor, a function definition may sometimes appear to have an error (indicated by a question mark or triangle icon); this can be resolved by simply clicking the function name or (if necessary) selecting **Refresh Preview** from the Home ribbon.
 
+## Additional Instructions
+
 Additional tutorials, tips, and samples (including instructions for connectiong to the EIA and Enpublica data sources) are available at the [Enpublica Data Connector repo](https://github.com/tylerchessman/PBI_FRED_EIA).
